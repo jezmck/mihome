@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Nethercott/mihome/issues"
   },
-  "homepage": "https://github.com/Nethercott/mihome#readme"
+  "homepage": "https://github.com/Nethercott/mihome#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
 }
