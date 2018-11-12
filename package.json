@@ -1,0 +1,25 @@
+{
+  "name": "mihome",
+  "version": "0.0.1",
+  "description": "A simple JS wrapper for the MiHome API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nethercott/mihome.git"
+  },
+  "keywords": [
+    "mihome",
+    "wrapper",
+    "api",
+    "nodejs"
+  ],
+  "author": "Christopher Nethercott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nethercott/mihome/issues"
+  },
+  "homepage": "https://github.com/Nethercott/mihome#readme"
+}
