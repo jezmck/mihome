@@ -34,7 +34,7 @@ mihome.getUserProfile().then(profile => {
 
 ### SubDevices
 #### `list` - Lists the Subdevices Available
-#### `delete(id)` - Deletes the Subdevide with that ID.
+#### `delete(id)` - Deletes the Subdevice with that ID.
 #### `powerOn(id)` - Turns the ID on.
 #### `powerOff(id)` - Turns the ID off.
 #### `fetchUsageData(id, data_type, resolution, start_time, end_time, limit)` - Gets usage data between specific time
