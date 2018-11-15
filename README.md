@@ -49,3 +49,6 @@ mihome.getUserProfile().then(profile => {
 #### `delete(id)` - Deletes the group with that ID.
 #### `powerOn(id)` - Turns the ID on.
 #### `powerOff(id)` - Turns the ID off.
+
+### Push Notifications
+#### `list` - Lists the notifications subscriptions.
