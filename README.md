@@ -16,3 +16,12 @@ If you already have an API Key:
 ```js
 mihome.login('example@example.org', 'exampleapikey'); 
 ```
+
+## Methods
+All methods use Promise Style Callback.
+#### `getUserProfile` - Gets information about the user that is currenlty logged in.
+```js
+mihome.getUserProfile().then(profile => {
+	console.log(profile);
+}).catch(err => console.error(err));
+```
