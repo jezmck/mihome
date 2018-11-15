@@ -32,7 +32,7 @@ mihome.getUserProfile().then(profile => {
 #### `list` - Lists the Devices Available (Hub)
 #### `delete(id)` - Deletes the Device with that ID.
 
-### SubDevices
+### Sub Devices
 #### `list` - Lists the Subdevices Available
 #### `delete(id)` - Deletes the Subdevice with that ID.
 #### `powerOn(id)` - Turns the ID on.
@@ -44,7 +44,7 @@ mihome.getUserProfile().then(profile => {
 - start_time - Start Time (See Format)
 - end_time - End Time (See Format)
 
-### SubDeviceGroups
+### Subdevice Groups
 #### `list` - Lists the groups Available
 #### `delete(id)` - Deletes the group with that ID.
 #### `powerOn(id)` - Turns the ID on.
