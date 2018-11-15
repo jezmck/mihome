@@ -16,6 +16,9 @@ If you already have an API Key:
 ```js
 mihome.login('example@example.org', 'exampleapikey'); 
 ```
+### Weird Things.
+Dates need to be expressed in the format `YYYY-MM-DD[T]HH:mm:SS.SSS[Z]`. You can use this String to `moment.format()`.  
+Sometimes you get a validation error for a completely valid request that may then work. I am in contact with Energine to figure out what is going wrong.
 
 ## Methods
 All methods use Promise Style Callback.
