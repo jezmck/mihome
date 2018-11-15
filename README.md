@@ -29,5 +29,5 @@ mihome.getUserProfile().then(profile => {
 }).catch(err => console.error(err));
 ```
 ### Devices
-#### `list` - Lists the Devices Available (Hubs)
+#### `list` - Lists the Devices Available (Hub)
 #### `delete(id)` - Deletes the Device with that ID.
