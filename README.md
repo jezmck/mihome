@@ -7,10 +7,9 @@ Just run `npm install mihome` for access to the API Wrapper.
 To get started you either need to get an API Key already or to get one.
 If don't already have an API Key:
 ```js
-mihome.getAPIKey('example@example.org', 'examplepassword', (err, apiKey) => {
-   if (err) console.error(err);
-   console.log(apiKey);
-});
+mihome.getAPIKey('example@example.org', 'examplepassword').then(apiKey => {
+	console.log(apiKey);
+}).catch(err => console.error(err));
 ```
 If you already have an API Key:
 ```js
