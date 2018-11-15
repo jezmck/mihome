@@ -47,8 +47,8 @@ mihome.getUserProfile().then(profile => {
 - id - The ID to get Usage Data.
 - data_type - Either 'watts' or 'reported_temperature'
 - resolution - Either 'instant', 'hourly', 'daily'
-- start_time - Start Time (See Format)
-- end_time - End Time (See Format)
+- start_time - Start Time [See](#dates)
+- end_time - End Time [See](#dates)
 
 ### Subdevice Groups
 #### `list` - Lists the groups Available
