@@ -26,7 +26,7 @@ moment().format('YYYY-MM-DD[T]HH:mm:SS.SSS[Z]');
 For some strange reason a perfectly valid request will sometimes work but other times return a validation request.  
 I will contact the Energinie Engineers to see what is causing this and hopefully fix it.
 ## Methods
-All methods use Promise Style Callback.
+**All methods use Promise Style Callback.**
 #### `getUserProfile` - Gets information about the user that is currenlty logged in.
 ```js
 mihome.getUserProfile().then(profile => {
