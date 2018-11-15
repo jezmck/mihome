@@ -31,3 +31,21 @@ mihome.getUserProfile().then(profile => {
 ### Devices
 #### `list` - Lists the Devices Available (Hub)
 #### `delete(id)` - Deletes the Device with that ID.
+
+### SubDevices
+#### `list` - Lists the Subdevices Available
+#### `delete(id)` - Deletes the Subdevide with that ID.
+#### `powerOn(id)` - Turns the ID on.
+#### `powerOff(id)` - Turns the ID off.
+#### `fetchUsageData(id, data_type, resolution, start_time, end_time, limit)` - Gets usage data between specific time
+- id - The ID to get Usage Data.
+- data_type - Either 'watts' or 'reported_temperature'
+- resolution - Either 'instant', 'hourly', 'daily'
+- start_time - Start Time (See Format)
+- end_time - End Time (See Format)
+
+### SubDeviceGroups
+#### `list` - Lists the groups Available
+#### `delete(id)` - Deletes the group with that ID.
+#### `powerOn(id)` - Turns the ID on.
+#### `powerOff(id)` - Turns the ID off.
