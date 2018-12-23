@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nethercott/mihome.git"
+    "url": "git+https://github.com/chriscn/mihome.git"
   },
   "keywords": [
     "mihome",
@@ -19,9 +19,9 @@
   "author": "Christopher Nethercott",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Nethercott/mihome/issues"
+    "url": "https://github.com/chriscn/mihome/issues"
   },
-  "homepage": "https://github.com/Nethercott/mihome#readme",
+  "homepage": "https://github.com/chriscn/mihome#readme",
   "devDependencies": {
     "eslint": "^5.9.0"
   },
