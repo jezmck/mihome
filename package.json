@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/chriscn/mihome#readme",
   "devDependencies": {
-    "eslint": "^5.9.0"
+    "eslint": "^5.12.1"
   },
   "dependencies": {
     "request": "^2.88.0",
